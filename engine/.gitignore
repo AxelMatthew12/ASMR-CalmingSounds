@@ -1,0 +1,19 @@
+# Mengabaikan environment variable rahasia
+.env
+.env.local
+
+# Mengabaikan Virtual Environment Python
+venv/
+ENV/
+env/
+
+# Mengabaikan Cache Python
+**/__pycache__/
+*.pyc
+
+# Mengabaikan folder temporary audio rekaman lokal
+app/temp/
+
+# Mengabaikan file log atau OS junk
+*.log
+.DS_Store
